@@ -11,17 +11,11 @@
     "path_safety_checker_models": "../models/safety_checker_models",
     "path_outputs": "../outputs",
 
-    // Выбираем JuggernautXL_version6Rundiffusion по умолчанию
     "default_model": "juggernautXL_version6Rundiffusion.safetensors",
 
     "checkpoint_downloads": {
-        // JuggernautXL
         "juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/frankjoshua/juggernautXL_version6Rundiffusion/resolve/main/juggernautXL_version6Rundiffusion.safetensors",
-
-        // Realistic Stock Photo v20
         "realisticStockPhoto_v20.safetensors": "https://huggingface.co/KirtiKousik/Realistic_Stock_Photo_v20/resolve/main/realisticStockPhoto_v20.safetensors",
-
-        // FluentlyXL‑v4
         "FluentlyXL-v4.safetensors": "https://huggingface.co/fluently/Fluently-XL-v4/resolve/main/FluentlyXL-v4.safetensors"
     },
 
