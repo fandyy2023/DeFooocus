@@ -1,24 +1,35 @@
 {
-    "path_checkpoints": "../models/checkpoints",
-    "path_loras": "../models/loras",
-    "path_embeddings": "../models/embeddings",
-    "path_vae_approx": "../models/vae_approx",
-    "path_upscale_models": "../models/upscale_models",
-    "path_inpaint": "../models/inpaint",
-    "path_controlnet": "../models/controlnet",
-    "path_clip_vision": "../models/clip_vision",
-    "path_fooocus_expansion": "../models/prompt_expansion/fooocus_expansion",
-    "path_safety_checker_models": "../models/safety_checker_models",
-    "path_outputs": "../outputs",
+    "path_checkpoints": "../models/checkpoints/",
+    "path_loras": "../models/loras/",
+    "path_embeddings": "../models/embeddings/",
+    "path_vae": "../models/vae/",
+    "path_vae_approx": "../models/vae_approx/",
+    "path_upscale_models": "../models/upscale_models/",
+    "path_inpaint": "../models/inpaint/",
+    "path_controlnet": "../models/controlnet/",
+    "path_clip_vision": "../models/clip_vision/",
+    "path_fooocus_expansion": "../models/prompt_expansion/fooocus_expansion/",
+    "path_outputs": "../outputs/",
 
     "default_model": "juggernautXL_version6Rundiffusion.safetensors",
+    "default_vae": "sd_xl_vae.safetensors",
 
     "checkpoint_downloads": {
         "juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/frankjoshua/juggernautXL_version6Rundiffusion/resolve/main/juggernautXL_version6Rundiffusion.safetensors",
         "realisticStockPhoto_v20.safetensors": "https://huggingface.co/KirtiKousik/Realistic_Stock_Photo_v20/resolve/main/realisticStockPhoto_v20.safetensors",
-        "FluentlyXL-v4.safetensors": "https://huggingface.co/fluently/Fluently-XL-v4/resolve/main/FluentlyXL-v4.safetensors"
+        "FluentlyXL-v4.safetensors": "https://huggingface.co/fluently/Fluently-XL-v4/resolve/main/FluentlyXL-v4.safetensors",
+        "LUSTIFY_Endgame_v5.safetensors": "https://civitai.com/api/download/models/1094291?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        "bigASP_v2.safetensors": "https://civitai.com/api/download/models/991916?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        "Anteros_XXXL.safetensors": "https://civitai.com/api/download/models/479579?type=Model&format=SafeTensor&size=full&fp=fp32",
+        "ICBINP_SDXL_v2.safetensors": "https://civitai.com/api/download/models/551129?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    },
+
+    "vae_downloads": {
+        "sd_xl_vae.safetensors": "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/sd_xl_vae.safetensors"
     },
 
     "lora_downloads": {},
-    "embeddings_downloads": {}
+    "embeddings_downloads": {},
+
+    "safety_checker": false
 }
