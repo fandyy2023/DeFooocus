@@ -18,7 +18,7 @@
         "juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/frankjoshua/juggernautXL_version6Rundiffusion/resolve/main/juggernautXL_version6Rundiffusion.safetensors",
         "realisticStockPhoto_v20.safetensors": "https://huggingface.co/KirtiKousik/Realistic_Stock_Photo_v20/resolve/main/realisticStockPhoto_v20.safetensors",
         "FluentlyXL-v4.safetensors": "https://huggingface.co/fluently/Fluently-XL-v4/resolve/main/FluentlyXL-v4.safetensors",
-        "LUSTIFY_Endgame_v5.safetensors": "https://civitai.com/api/download/models/1094291?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        "LUSTIFY_Endgame_v5.safetensors": "https://huggingface.co/fandyy24/lustifySDXLNSFW_endgame/resolve/main/lustifySDXLNSFW_endgame.safetensors",
         "bigASP_v2.safetensors": "https://civitai.com/api/download/models/991916?type=Model&format=SafeTensor&size=pruned&fp=fp16",
         "Anteros_XXXL.safetensors": "https://civitai.com/api/download/models/479579?type=Model&format=SafeTensor&size=full&fp=fp32",
         "ICBINP_SDXL_v2.safetensors": "https://civitai.com/api/download/models/551129?type=Model&format=SafeTensor&size=pruned&fp=fp16"
